@@ -134,6 +134,7 @@ body {
   cursor: pointer;
   position: absolute;
   outline: 1px solid transparent;
+  border-radius: 8px;
 }
 
 .cart-page-front {
@@ -151,7 +152,8 @@ body {
 
 .cart-page-outside {
   border: 10px solid #fbfbfb;
-  background: #c72320 url("https://www.dropbox.com/s/xsgg2exs2oparkm/front-bg.png?raw=1") no-repeat center;
+  background: #c72320 url("./front-bg.png") no-repeat center;
+  /* https://uc0e9fa2ac9ce6e09deaff6ee2ec.dl.dropboxusercontent.com/cd/0/inline/CJwKHF1vQGOQFiYhM_Gsk68qKExXIs1eD3Qq2OfQoFVl8ArWYFj223B5BqE7PBac7NBQ3GDqMFf-QqbHvsqhIDffTEGoStRvpmP5HFFVMVMs8ahFxWDCcCYS_5M-m6Oamxs/file# */
   background-size: cover;
   width: 100%;
   height: 100%;
@@ -166,7 +168,8 @@ body {
 .cart-page-inside,
 .cart-page-bottom {
   background-color: #d4d1d0;
-  background-image: url("https://www.dropbox.com/s/8hw7guch8d151kg/pattern.png?raw=1");
+  background-image: url("./inside-bg.png");
+  /* https://www.dropbox.com/s/8hw7guch8d151kg/pattern.png?raw=1 */
   border: 20px solid #d4d1d0;
   display: -webkit-box;
   display: -moz-box;
